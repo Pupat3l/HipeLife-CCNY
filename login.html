@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign up - HipeLife</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="head">HIPE</h1>
+    <nav>
+      <ul>
+        <li><a href="first.html">Home</a></li>
+        <li><a href="#discussions">Discussions</a></li>
+        <li><a href="https://hipenetwork.net">Hipe Network</a></li>
+        <li><a href="login.html">Login/Register</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="Intro">
+      <h2>Welcome to HipeLife</h2>
+      <p>Connect to the community by logging in to your account or creating an account</p>
+    </section>
+    <section id="login-Form">
+      <div class="container">
+        <h2 style="text-align:center;">Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for ="email">Email:</label><br>
+                <input type="text" id="email" name="email" required><br>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="login-create-btn">
+            </div>
+        </form>
+        <p class="error" id="loginError"></p>
+        <h2 style="text-align:center; padding:10px;">OR</h2>
+        <button class="login-create-btn" onclick="Create.html">Create Account</button>
+      </div>
+    </section>
+    <section>
+    <!-- One more section-->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 HIPE Network. All rights reserved.</p>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+</html>
