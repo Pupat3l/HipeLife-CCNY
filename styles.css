@@ -57,8 +57,9 @@ main {
   padding: 0.8rem 1.5rem;
   background-color: #007bff;
   color: #fff;
-  border: none;
+  border: 2px solid;
   border-radius: 4px;
+  border-color:#007bff;
   text-decoration: none;
   font-size: 1rem;
   transition: background-color 0.3s ease;
@@ -66,7 +67,9 @@ main {
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: white;
+  color: #007bff;
+  border-color: black;
 }
 
 #featured-discussions {
